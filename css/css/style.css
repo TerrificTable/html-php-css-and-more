@@ -1,0 +1,142 @@
+body {
+  background-color:rgb(56,59,76);
+  color:#FFFFFF;
+
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  font-weight:normal;
+
+  /* Same as above
+  font: normal 25px Arial, Helvetica, sans-serif;
+  */
+
+  line-height: 1.2em;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+} a:hover {
+  color:red;
+} a:visited {
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+.button {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  width: 30%;
+} .button:hover {
+  color: #fff;
+  background: red;
+}
+
+.clr {
+  clear: both;
+}
+
+.box-1 {
+  font-size: 20px;
+  background-color:#333;
+  color:#fff;
+
+  border-left: 5px red solid;
+  padding-left: 5px;
+} .box-1 h1 {
+  font-family: Taho;
+  font-weight: 800;
+  font-style: bold;
+  text-decoration: underline;
+  letter-spacing: 0.12em;
+}
+
+.categories {
+  border: 1px #ccc solid;
+  padding: 10px;
+  border-radius: 15px;
+} .categories h2 {
+  text-align: center;
+} .categories ul {
+  padding: 45;
+  list-style: none;
+} .categories li {
+  padding-bottom: 8px;
+  border-bottom: dotted 1px #333;
+}
+
+.my-form {
+  padding:20px;
+} .my-from .form-group {
+  padding-bottom: 5px;
+} .my-form label {
+  display: block;
+} .my-form input[type="text"], .my-form textarea {
+  padding: 8px;
+  width: 60%;
+}
+
+.block {
+  float: left;
+  width: 33.3%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+#main-block {
+  float: left;
+  width: 70%;
+  padding: 15px;
+  box-sizing: border-box;
+} #side-bar {
+  float: right;
+  width: 30%;
+  background-color: #333;
+  color: #fff;
+  padding: 15px;
+  box-sizing: border-box;
+}
+
+.p-box {
+  width: 800px;
+  height: 500px;
+  border: 1px solid #000;
+  margin-top: 30px;
+  position: relative;
+  background-image: url("https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2F2.bp.blogspot.com%2F-HAnoXygVZio%2FUECmJ6KXyvI%2FAAAAAAAAR5c%2FH-4OZKFrjvU%2Fs1600%2FAbstract%2BLight%2B19.jpg&f=1&nofb=1");
+  background-repeat: no-repeat;
+  background-position: 100px 200px;
+  background-position: center center;
+} /* .p-box h1 {
+  position: absolute;
+  color: red;
+  top: 100px;
+  left: 200px;
+} .p-box h2 {
+  position: absolute;
+  color: red;
+  bottom: 40px;
+  right: 100px;
+} */
+
+.fix-me {
+  position: fixed;
+  top: 40px;
+  width: 3%;
+}
+
+.my-list li:first-child {
+  background: red;
+}.my-list li:nth-child(even) {
+  background: grey;
+} .my-list li:last-child {
+  background: blue;
+} .my-list li:nth-child(5) {
+  background: yellow;
+}
